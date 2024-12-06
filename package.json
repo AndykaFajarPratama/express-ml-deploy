@@ -1,0 +1,15 @@
+{
+  "name": "image-classification-api",
+  "version": "1.0.0",
+  "description": "Image classification API using TensorFlow.js and Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.0.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
